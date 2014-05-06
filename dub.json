@@ -1,0 +1,17 @@
+{
+	"name": "dorm",
+	"description": "A minimal Redis ORM.",
+	"copyright": "Copyright © 2014, Victor Vicente de Carvalho",
+	"authors": ["victor"],
+	"dependencies": {        
+        "dorm:tinyredis": "~master",
+	},
+    "subPackages": [
+        {
+            "name": "tinyredis",
+            "targetType": "library",
+            "sourcePaths": ["deps/tinyredis/tinyredis"],
+            "importPaths": ["deps/tinyredis/tinyredis"]
+        }
+    ]
+}

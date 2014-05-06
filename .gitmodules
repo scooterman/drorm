@@ -1,0 +1,3 @@
+[submodule "deps/tinyredis"]
+	path = deps/tinyredis
+	url = https://github.com/adilbaig/Tiny-Redis
